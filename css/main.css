@@ -1,0 +1,47 @@
+.wrapper{
+	width: 940px;
+}
+
+
+/* -------- Column Layout -------*/
+
+.one_fourth {   width:210px;  }
+.one_third {    width:285px;  }
+.one_half {     width:438px;  }
+.two_third {    width:590px;  }
+.three_fourth { width:665px;  }
+.full_column {  width:940px; }
+
+.one_half,
+.one_third,
+.two_third,
+.three_fourth,
+.one_fourth,
+.full_column {
+  float:left;
+  margin-left:20px;
+  margin-bottom:20px;
+}
+
+/* -- Clearfix -- */
+
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/*-- Column Styles --*/
+
+.row {
+	border: solid 1px #000;
+	padding: 20px 0 0 0;
+}
+
+.one_fourth, .one_third, .one_half, .two_third, .three_fourth, .full_column  {
+	background: #000;
+	/*height: 75px;*/
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
